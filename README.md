@@ -6,4 +6,4 @@ It leverages my OSGenome project's processing on 23andMe raw data and produces a
 To learn more:
 https://github.com/mentatpsi/OSGenome
 
-Once you've set up the snpDict.json with OSGenome, place it here to learn more about how genetics can help guide nutrition
+Once you've set up the snpDict.json with OSGenome, place it in the directory you cloned the project in to learn more about how genetics can help guide nutrition. Don't forget to run pip install -r requirements.txt to get required dependencies.
