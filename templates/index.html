@@ -73,7 +73,6 @@
                         <thead>
                             <tr>
                                 <th>RSID</th>
-                                <th>Gene</th>
                                 <th>Category</th>
                                 <th>Your Genotype</th>
                                 <th>Orientation</th>
@@ -94,26 +93,25 @@
                                 data-actionability="{{ row.actionability or '' }}"
                             >
                                 <td>
-                                <a
-                                    href="https://www.snpedia.com/index.php/{{ row.rsid }}"
-                                    target="_blank"
-                                    class="rsid-link"
-                                >
-                                    {{ row.rsid }}
-                                </a>
-                            </td>
-                                <td>{{ row.gene }}</td>
-                                <td>{{ row.category }}</td>
-                                <td>{{ row.user_genotype }}</td>
-                                <td>{{ row.orientation }}</td>
+                                    <a
+                                        href="https://www.snpedia.com/index.php/{{ row.rsid }}"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="rsid-link"
+                                    >
+                                        {{ row.rsid }}
+                                    </a>
+                                </td>
+                                <td>{{ row.category or "" }}</td>
+                                <td>{{ row.user_genotype or "" }}</td>
+                                <td>{{ row.orientation or "" }}</td>
                                 <td>{{ row.flipped_genotype or "-" }}</td>
-                                <td>{{ row.genotype }}</td>
-                                <td>{{ row.evidence_level }}</td>
-                                <td>{{ row.actionability }}</td>
-                                <td>{{ row.nutrition_relevance }}</td>
-                                <td>{{ row.keto_effect }}</td>
-                                <td>{{ row.description }}</td>
-                                <td>{{ row.source }}</td>
+                                <td>{{ row.evidence_level or "" }}</td>
+                                <td>{{ row.actionability or "" }}</td>
+                                <td>{{ row.nutrition_relevance or "" }}</td>
+                                <td>{{ row.keto_effect or "" }}</td>
+                                <td>{{ row.description or "" }}</td>
+                                <td>{{ row.source or "" }}</td>
                             </tr>
                             {% endfor %}
                         </tbody>
