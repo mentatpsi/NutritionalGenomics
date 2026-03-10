@@ -10,4 +10,4 @@ Once you've set up the snpDict.json with OSGenome, place it in the directory you
 
 
 ## Example
-![Example of Kendo Grid](https://github.com/mentatpsi/NutritionalGenomics/blob/main/screenshots/NutritionalGenomics2.png)
+![Example of NutritionalGenomics Grid](https://github.com/mentatpsi/NutritionalGenomics/blob/main/screenshots/NutritionalGenomics2.png)
