@@ -7,3 +7,6 @@ To learn more:
 https://github.com/mentatpsi/OSGenome
 
 Once you've set up the snpDict.json with OSGenome, place it in the directory you cloned the project in to learn more about how genetics can help guide nutrition. Don't forget to run pip install -r requirements.txt to get required dependencies.
+
+## Example
+![Example of Kendo Grid](https://github.com/mentatpsi/NutritionalGenomics/blob/main/NutritionalGenomics.png)
